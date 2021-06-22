@@ -1,5 +1,4 @@
 import React from "react"
-import "./routerStyle.css"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 
@@ -14,7 +13,7 @@ const Button = styled.button`
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ margin: "0px 20px" }}>
             <h2>Sistema de gerenciamento</h2>
             <span>Para usar nosso sistema, você precisa estar autenticado</span>
             <Button type="button" >
